@@ -31,7 +31,7 @@ int main() {
         float purcaseCost = receipt.totCost*1.14;
     } endCosts;
 
-    cout << "\n\nPurchase summary for " << receipt.custName << "\n";
+    cout << "\nPurchase summary for " << receipt.custName << "\n";
     cout << "Delivery Cost: $" << fixedFloat(endCosts.delivCost) << "\n";
     cout << "Purchase Cost: $" << fixedFloat(endCosts.purcaseCost) << "\n";
     cout << "Total Cost:    $" << fixedFloat(endCosts.delivCost+endCosts.purcaseCost) << "\n";
